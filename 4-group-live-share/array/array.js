@@ -10,4 +10,15 @@
  * Using single line comments write what the output would display.
  */
 
-var electronics =["mouse", ""]
+var electronics = ["mouse", "keyboard", "monitor"];
+var sentence = "";
+electronics.map((x, index) => console.log(`The item is ${x}. Then the index is ${index}`) );
+
+
+console.log(sentence);
+
+/* The item is mouse. Then the index is 0
+The item is keyboard. Then the index is 1
+The item is monitor. Then the index is 2 */
+
+
