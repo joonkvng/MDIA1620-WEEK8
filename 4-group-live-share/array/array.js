@@ -10,3 +10,4 @@
  * Using single line comments write what the output would display.
  */
 
+var electronics =["mouse", ""]
