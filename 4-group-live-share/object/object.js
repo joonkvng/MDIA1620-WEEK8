@@ -6,7 +6,13 @@
  * Then console log the sentence.
  *
  */
-var student = { firstName: "Mark", lastName: "Jacob", age: 31, id: "A001234" }
-var sentence = ""; sentence = "The new employee " + student.firstName + " " +
-    student.lastName + " is " + student.age + " years old. The employee ID is " + student.id + "."
+var student = {
+    firstName: "Mark",
+    lastName: "Jacob",
+    age: 31,
+    id: "A001234"
+}
+var sentence = "";
+sentence = "The new employee " + student.firstName + " " + student.lastName + " is " + student.age + " years old. The employee ID is " + student.id + "."
+
 console.log(sentence); // The new employee Mark Jacob is 31 years old. The employee ID is A001234.
